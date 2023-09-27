@@ -49,7 +49,9 @@ anotherName = "youtube"
 console.log(myName);
 console.log(anotherName);    
 
-// joh name change ho sakthe hain woh primitive mtplb (Stack) khethe hain 
+/*  primitive(Stack) value woh hain joh ek hi naam ka another folder ko copy karke detha hain aur joh copy value 
+ko hum change karthe hain woh sirf dusri jagah change hothi hain neh ki real value main */ 
+  
 
 let userOne = {
     email: "google@com",
@@ -62,4 +64,5 @@ userTwo.email = "youtube@com"
 console.log(userOne);
 console.log(userTwo);
 
-// joh name change ho sakthe hain unhe Non-Primitive mtlb (Heap) kehthe hain 
+/* Non-Primitive  (Heap) value joh hothe hain jiski ek value ka naam hum dusri jagha change karthe hain toh 
+woh value dusri jagha bhi chnage ho jathi hain */
